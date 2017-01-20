@@ -1,7 +1,10 @@
 body {
-    font-family: 'Lato', sans-serif;
-    color: #747704;
+    /*font-family: 'Lato', sans-serif;*/
+    /*font-weight: 300;*/
+    font-family: 'Work Sans', serif;
     font-weight: 300;
+    /*color: #747704;*/
+    color: #964b00;
 
     /*font-family: 'Merriweather', serif;*/
 }
@@ -11,12 +14,14 @@ body {
 
 }
 
-.text-thin {
+
+.name {
     font-weight: 100;
+    font-size: 60px;
 }
 
-.title-super {
-    font-size: 60px;
+a {
+    color: inherit;
 }
 
 .title-logo {
@@ -42,7 +47,9 @@ footer {
     /*width: 100%;*/
 
 }
+.portfolio-name {
 
+}
 
 
 @media screen and (min-width: 1200px) {
