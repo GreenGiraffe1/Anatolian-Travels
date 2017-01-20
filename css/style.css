@@ -47,10 +47,21 @@ footer {
     /*width: 100%;*/
 
 }
-.portfolio-name {
 
+p.link-addr {
+    font-size: 1em;
 }
 
+.portfolio-name {
+    font-size: 2em;
+}
+
+.featured-annoucer {
+
+}
+em {
+    border-width: 3px;
+}
 
 @media screen and (min-width: 1200px) {
     .container-fluid {
