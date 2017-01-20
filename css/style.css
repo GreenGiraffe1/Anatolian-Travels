@@ -8,6 +8,7 @@ body {
     font-weight: 300;
     /*color: #747704;*/
     color: #964b00;
+    background: #f8f3e4;
 
     /*font-family: 'Merriweather', serif;*/
 }
@@ -41,6 +42,7 @@ a {
 hr {
     /*color: gray;*/
     border-width: 3px;
+    border-color: grey;
 }
 
 .img-responsive {
@@ -67,7 +69,8 @@ p.link-addr {
 }
 
 .featured-annoucer {
-
+    margin-bottom: 2.5em;
+    margin-top: 3.5em;
 }
 em {
     border-width: 3px;
@@ -84,12 +87,24 @@ em {
 }
 
 .social-links p {
-    padding-top: 30px;
+    padding-top: 25px;
 }
 
 .social-links a {
-    padding: 20px;
+    padding: 15px;
 }
+
+.project {
+    margin-bottom: 4em;
+    /*margin-top: 0;*/
+}
+
+.img-rounded {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
 
 @media screen and (min-width: 1200px) {
     .container-fluid {
