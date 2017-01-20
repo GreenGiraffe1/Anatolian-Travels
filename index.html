@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Boot Project</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1  ">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
+    </head>
+    <body>
+        <div class="container-fluid">
+            <header class="row">
+                <div class="col-sm-6">
+                    <img class="title-logo" src="https://i.ytimg.com/vi/VVNPgdWyNKc/hqdefault.jpg" alt="logo">
+                </div>
+                <div class="col-sm-6 text-uppercase text-right">
+                    <h1 class="text-thin title-super">Matt Hedlund</h1>
+                    <h4>Front-End Dev</h3>
+
+                </div>
+
+            </header>
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                </div>
+
+            </div>
+            <div class="row">
+
+                <picture class="col-md-12 banner-image">
+                    <!-- <picture> -->
+
+                        <source media="(max-width: 600px)" srcset="images/mediterraneanAlt-CropS-800_small_1x.jpg 1x, images/mediterraneanAlt-CropS-1600_small_2x.jpg 2x">
+
+			            <source media="(max-width: 750px)" srcset="images/mediterraneanAlt-CropM-1000_medium_1x.jpg 1x, images/mediterraneanAlt-CropM-2000_medium_2x.jpg 2x">
+
+			            <source media="(min-width: 751px)" srcset="images/mediterraneanAlt-1200_large_1x.jpg 1x, images/mediterraneanAlt-2400_large_2x.jpg 2x">
+
+			            <img class="img-responsive" src="images/mediterraneanAlt-1200_large_1x.jpg" alt="Med View">
+
+
+
+
+
+                        <!-- <img class="img-responsive" src="images/mediterraneanAlt-1200_large_1x.jpg" srcset="images/mediterraneanAlt-1200_large_1x.jpg 1x, images/mediterraneanAlt-2400_large_2x.jpg 2x" alt="Med View"> -->
+                    <!-- </picture> -->
+                </picture>
+
+                <!-- <div class="col-md-12 medium">
+                    <img class="img-responsive" src="images/mediterraneanAlt-CropM-1000_medium_1x.jpg" srcset="images/mediterraneanAlt-CropM-1000_medium_1x.jpg 1x, images/mediterraneanAlt-CropM-2000_medium_2x.jpg 2x" alt="Med View">
+                </div> -->
+
+            </div>
+            <div class="row">
+                <div class="col-md-12 featured-banner">
+                    <h2>Featured Work</h3>
+                </div>
+
+            </div>
+            <section class="row work-examples">
+                <div class="col-md-4 col-sm-6">
+                    <!-- <picture> -->
+                        <!-- <source media="(min-width: 1000px)" srcset="images/tropical-hotel-330_large_1x.jpg 1x, images/tropical-hotel-660_large_2x.jpg 2x"> -->
+    			        <!-- <source media="(min-width: 500px)" srcset="kookaburra_medium_1x.jpg 1x, kookaburra_medium_2x.jpb 2x"> -->
+
+                    <img class="img-responsive" src="images/tropical-hotel-500_large_1x.jpg" srcset="images/tropical-hotel-500_large_1x.jpg 1x, images/tropical-hotel-1000_large_2x.jpg 2x" alt="Appify Image" data-toggle="modal" data-target="#project1">
+                    <!-- </picture> -->
+                    <h3 class="text-uppercase">Appify</h3>
+                    <p>https://github.com/udacity/appify</p>
+                </div>
+                <div class="col-md-4 col-sm-6">
+
+                    <img class="img-responsive" src="images/mountain-roadAlt-500_large_1x.jpg" srcset="images/mountain-roadAlt-500_large_1x.jpg 1x, images/mountain-roadAlt-1000_large_2x.jpg 2x" alt="Sunflower Image">
+                    <h3 class="text-uppercase">Sunflower</h3>
+                    <p>https://guthub.com/udacity/sunflower</p>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <!-- <source media="(min-width: 1000px)" srcset="images/istanbul-mosque-330_large_1x.jpg 1x, images/istanbul-mosque-660_large_2x.jpg 2x"> -->
+
+                    <img class="img-responsive" src="images/istanbul-mosque-500_large_1x.jpg" srcset="images/istanbul-mosque-500_large_1x.jpg 1x, images/istanbul-mosque-1000_large_2x.jpg 2x" alt="Bokeh Image">
+                    <h3 class="text-uppercase">Bokeh</h3>
+                    <p>https://github.com/udacity/bokeh</p>
+                </div>
+            </section>
+            <footer class="row">
+                <div class="col-md-12 social-links">
+                    <p>Visit my profile on LinkedIN: </p>
+
+                </div>
+            </footer>
+
+        </div>
+
+
+
+
+
+        <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://placekitten.com/g/350/350">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>

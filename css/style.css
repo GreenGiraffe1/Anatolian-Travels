@@ -1,0 +1,49 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #747704;
+    font-weight: 300;
+}
+
+.text-muted {
+    color: #BCBBBB;
+
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.title-super {
+    font-size: 60px;
+}
+
+.title-logo {
+    margin-top: 20px;
+}
+
+hr {
+    /*color: gray;*/
+    border-width: 3px;
+}
+
+.img-responsive {
+    margin: 0 auto;
+}
+footer {
+    margin-top: 20px;
+}
+
+.work-examples {
+    text-align: center;
+    /*width: 100%;*/
+
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    .container-fluid {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
