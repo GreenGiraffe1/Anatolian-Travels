@@ -1,3 +1,6 @@
+
+
+
 body {
     /*font-family: 'Lato', sans-serif;*/
     /*font-weight: 300;*/
@@ -13,6 +16,13 @@ body {
     color: #BCBBBB;
 
 }
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+
 
 
 .name {
@@ -61,6 +71,24 @@ p.link-addr {
 }
 em {
     border-width: 3px;
+}
+
+.social-links {
+    display: flex;
+}
+
+.brandico-linkedin-rect {
+    /*margin-left: 1px;*/
+    color: #0077b5;
+    font-size: 30px;
+}
+
+.social-links p {
+    padding-top: 30px;
+}
+
+.social-links a {
+    padding: 20px;
 }
 
 @media screen and (min-width: 1200px) {
