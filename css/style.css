@@ -2,29 +2,16 @@
 
 
 body {
-    /*font-family: 'Lato', sans-serif;*/
-    /*font-weight: 300;*/
+    background: #f8f3e4;
     font-family: 'Work Sans', serif;
     font-weight: 300;
-    /*color: #747704;*/
     color: #964b00;
-    background: #f8f3e4;
-
-    /*font-family: 'Merriweather', serif;*/
 }
-
-/*.text-muted {
-    color: #BCBBBB;
-
-}*/
 
 /* brandico */
 [class*="brandico-"]:before {
   font-family: 'brandico', sans-serif;
 }
-
-
-
 
 .name {
     font-weight: 100;
@@ -40,7 +27,6 @@ a {
 }
 
 hr {
-    /*color: gray;*/
     border-width: 3px;
     border-color: grey;
 }
@@ -48,16 +34,9 @@ hr {
 .img-responsive {
     margin: 0 auto;
 }
-footer {
-    /*margin-top: 20px;*/
-    /*margin-bottom: 50em;
-    padding-bottom: 50em;*/
-}
 
 .work-examples {
     text-align: center;
-    /*width: 100%;*/
-
 }
 
 p.link-addr {
@@ -81,7 +60,6 @@ em {
 }
 
 .brandico-linkedin-rect {
-    /*margin-left: 1px;*/
     color: #0077b5;
     font-size: 30px;
 }
@@ -89,7 +67,6 @@ em {
 .brandico-github-text {
     font-size: 30px;
     color: black;
-    /*padding: 15px;*/
 }
 
 .social-links p {
@@ -99,12 +76,10 @@ em {
 
 .social-links a {
     padding: 10px;
-
 }
 
 .project {
     margin-bottom: 4em;
-    /*margin-top: 0;*/
 }
 
 .img-rounded {
@@ -120,12 +95,6 @@ em {
     text-decoration: none;
     border-bottom: 2px solid #964b00;
 }
-/*u {
-    text-decoration: none;
-    border-bottom: 2px solid black;
-}*/
-
-
 
 @media screen and (min-width: 1200px) {
     .container-fluid {
