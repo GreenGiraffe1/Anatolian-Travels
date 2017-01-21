@@ -86,12 +86,20 @@ em {
     font-size: 30px;
 }
 
+.brandico-github-text {
+    font-size: 30px;
+    color: black;
+    /*padding: 15px;*/
+}
+
 .social-links p {
-    padding-top: 25px;
+    padding-top: 17px;
+    margin-right: 10px;
 }
 
 .social-links a {
-    padding: 15px;
+    padding: 10px;
+
 }
 
 .project {
@@ -116,6 +124,7 @@ em {
     text-decoration: none;
     border-bottom: 2px solid black;
 }*/
+
 
 
 @media screen and (min-width: 1200px) {
