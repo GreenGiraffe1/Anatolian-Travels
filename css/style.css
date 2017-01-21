@@ -1,3 +1,4 @@
+/*General Formatting for Page*/
 body {
     background: #f8f3e4;
     font-family: 'Work Sans', serif;
@@ -5,22 +6,17 @@ body {
     color: #964b00;
 }
 
-/* brandico */
-[class*="brandico-"]:before {
-  font-family: 'brandico', sans-serif;
+.img-responsive {
+    margin: 0 auto;
 }
 
-.name {
-    font-weight: 100;
-    font-size: 60px;
+.img-rounded {
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 a {
     color: inherit;
-}
-
-.header-logo {
-    margin-top: 20px;
 }
 
 hr {
@@ -28,8 +24,43 @@ hr {
     border-color: grey;
 }
 
-.img-responsive {
-    margin: 0 auto;
+/* add brandico icon font*/
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+/*Header*/
+.name {
+    font-weight: 100;
+    font-size: 60px;
+}
+
+.header-logo {
+    margin-top: 20px;
+}
+
+.name-title {
+    text-align: right;
+}
+
+/*"Featured" Heading Section*/
+.featured-annoucer {
+    margin-bottom: 2em;
+    margin-top: 3.5em;
+}
+
+.featured-format {
+    text-decoration: none;
+    border-bottom: 2px solid #964b00;
+}
+
+/*Portfolio Section*/
+.portfolio-name {
+    font-size: 2em;
+}
+
+.project {
+    margin-bottom: 4em;
 }
 
 .work-examples {
@@ -40,18 +71,7 @@ hr {
     font-size: 1em;
 }
 
-.portfolio-name {
-    font-size: 2em;
-}
-
-.featured-annoucer {
-    margin-bottom: 2em;
-    margin-top: 3.5em;
-}
-em {
-    border-width: 3px;
-}
-
+/*Footer Social Links*/
 .social-links {
     display: flex;
 }
@@ -75,24 +95,7 @@ em {
     padding: 10px;
 }
 
-.project {
-    margin-bottom: 4em;
-}
-
-.img-rounded {
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-
-.name-title {
-    text-align: right;
-}
-
-.featured-format {
-    text-decoration: none;
-    border-bottom: 2px solid #964b00;
-}
-
+/*Media Queries*/
 @media screen and (min-width: 1200px) {
     .container-fluid {
         width: 1200px;
